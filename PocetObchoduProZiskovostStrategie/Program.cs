@@ -40,7 +40,7 @@ namespace PocetObchoduProZiskovostStrategie
 				Console.ForegroundColor = ConsoleColor.White;
 				for (int o = 0; o < obchodu.Count(); o++)
 				{
-					Console.WriteLine($"   Pravdepodobnost uctu ce ztrate po {obchodu[o]} obchodech, RRR {rrr}:1, pocet testu {pocetTestu}: ");
+					Console.WriteLine($"   Pravdepodobnost uctu ve ztrate po {obchodu[o]} obchodech, RRR {rrr}:1, pocet testu {pocetTestu}: ");
 					for (int w = 0; w < wins.Count(); w++)
 					{
 						int win = 0;
