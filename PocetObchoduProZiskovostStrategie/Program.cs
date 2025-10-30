@@ -15,7 +15,7 @@ namespace PocetObchoduProZiskovostStrategie
 			Random r = new Random((int)DateTime.Now.Ticks);
 
 			int[] obchodu = { 5, 10, 20, 30, 40, 50 };
-			int[] wins = { 50, 60, 65, 70, 75 };
+			int[] wins = { 40, 50, 60, 65, 70, 75 };
 
 			/*
 						int x1 = 0, x2 = 0;
@@ -33,7 +33,7 @@ namespace PocetObchoduProZiskovostStrategie
 						Console.WriteLine($"   {x1}, {x2}");
 			*/
 
-			for (int rrr = 1; rrr <= 1; rrr++)
+			for (int rrr = 1; rrr <= 2; rrr++)
 			{
 				Console.ForegroundColor = ConsoleColor.Yellow;
 				Console.WriteLine($"   RRR {rrr}:1");
