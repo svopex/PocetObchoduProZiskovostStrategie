@@ -10,12 +10,12 @@ namespace PocetObchoduProZiskovostStrategie
 	{
 		static void Main(string[] args)
 		{
-			int pocetTestu = 500000;
+			int pocetTestu = 1500000;
 			int velikostObchodu = 25000;
 			Random r = new Random((int)DateTime.Now.Ticks);
 
-			int[] obchodu = { 5, 10, 20, 50, 75, 100 };
-			int[] wins = { 50, 60, 70, 80 };
+			int[] obchodu = { 5, 10, 20, 30, 40, 50 };
+			int[] wins = { 50, 60, 65, 70, 75 };
 
 			/*
 						int x1 = 0, x2 = 0;
@@ -33,7 +33,7 @@ namespace PocetObchoduProZiskovostStrategie
 						Console.WriteLine($"   {x1}, {x2}");
 			*/
 
-			for (int rrr = 1; rrr <= 2; rrr++)
+			for (int rrr = 1; rrr <= 1; rrr++)
 			{
 				Console.ForegroundColor = ConsoleColor.Yellow;
 				Console.WriteLine($"   RRR {rrr}:1");
