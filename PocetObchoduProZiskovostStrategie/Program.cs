@@ -10,7 +10,7 @@ namespace PocetObchoduProZiskovostStrategie
 	{
 		static void Main(string[] args)
 		{
-			int pocetTestu = 1500000;
+			int pocetTestu = 500000;
 			int velikostObchodu = 25000;
 			Random r = new Random((int)DateTime.Now.Ticks);
 
@@ -62,14 +62,14 @@ namespace PocetObchoduProZiskovostStrategie
 							}
 							if (equity == 0)
 							{
-								if (r.Next(0, 2) == 0)
-								{
-									win++;
-								}
-								else
-								{
-									los++;
-								}
+								//if (r.Next(0, 2) == 0)
+								//{
+								//	win++;
+								//}
+								//else
+								//{
+								//	los++;
+								//}
 							}
 							else if (equity > 0)
 							{
